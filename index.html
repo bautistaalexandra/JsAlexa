@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+   
+<h2 id="textodinamico">Texto Dinámico</h2>
+
+<button onclick="document.getElementById('textodinamico').innerHTML='Texto Dinámico No. 2';">Cambiar Texto</button>
+
+<button onclick="window.alert('Hola le diste clic al boton');">Clic (alert)</button>
+
+<button onclick="window.print();">Imprimir</button>
+<hr>
+<br>
+<br>
+<button onclick="document.getElementById('bombilloDinamico').src='img/pic_bulbon.gif'">Encender</button>
+<img id="bombilloDinamico" src="img/pic_bulboff.gif" alt="">
+<button onclick="document.getElementById('bombilloDinamico').src='img/pic_bulboff.gif'">Apagar</button>
+<br>
+<br>
+<hr>
+    <script>
+        //comentario
+        /*
+        comentario de varias lineas
+        */
+
+        document.write("Mi nombre es Alexandra Bautista desde JS");
+    </script>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
